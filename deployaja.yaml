@@ -16,15 +16,14 @@ env:
     value: production
 
 dependencies:
-  - type: mysql
-    name: mysql
-    version: "8.0"
+  - type: postgresql
+    name: postgres
+    version: "15"
 
 domain: my-app.deployaja.id
 
 envMap:
-  db_host: mysql_host
-  db_name: mysql_database
-  db_user: mysql_user
-  db_password: mysql_password
-  db_pass: mysql_password
+  db_host: postgres_host
+  db_name: postgres_database
+  db_user: postgres_user
+  db_password: postgres_password
