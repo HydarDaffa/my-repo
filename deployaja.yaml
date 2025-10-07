@@ -15,15 +15,7 @@ env:
   - name: NODE_ENV
     value: production
 
-dependencies:
-  - type: postgresql
-    name: postgres
-    version: "15"
+
 
 domain: my-app.deployaja.id
 
-envMap:
-  db_host: postgres_host
-  db_name: postgres_database
-  db_user: postgres_user
-  db_password: postgres_password
