@@ -7,10 +7,10 @@ on:
     branches: [ "main" ]
 
 env:
-  REGISTRY: ghcr.io/hydardaffa/my-repo
-  GH_REGISTRY: ghcr.io
-  IMAGE_NAME: my-repo
+  REGISTRY: ghcr.io
+  IMAGE_NAME: hydardaffa/my-repo
   DOCKER_BUILDKIT: 1
+
 
 jobs:
   build-and-push:
