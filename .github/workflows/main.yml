@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: ghcr.io/hydardaffa
   IMAGE_NAME: hydardaffa/my-repo
   DOCKER_BUILDKIT: 1
 
